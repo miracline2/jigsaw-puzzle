@@ -28,13 +28,13 @@ const SuccessPopup = ({ videoSrc, onClose }) => {
         
           <div className="text-center mb-4">
             <div className="text-5xl md:text-6xl mb-2 animate-bounce">
-              🎉 ✨ 💕
+              Dear Vishnu
             </div>
             <h2 className="text-2xl md:text-4xl font-bold text-purple-800 mb-2">
-              Happy Valentine My Love 💖
+            Happy  valentine's day My Love 💖
             </h2>
             <p className="text-base md:text-xl text-purple-600 font-semibold">
-              You Did It Perfectly! 💖
+                  Enoda life-la best surprise neethaan ♥
             </p>
           </div>
 
@@ -63,10 +63,10 @@ const SuccessPopup = ({ videoSrc, onClose }) => {
                     Just like this puzzle, you complete my world! 
                   </p>
                   <p className="text-center text-pink-600 font-semibold text-base md:text-xl">
-                    This special message is just for you... ♥
+                    I Love You... ♥
                   </p>
-                  <div className="text-center mt-6 text-4xl md:text-6xl">
-                    💝 ✨ 💖
+                  <div className="text-center mt-6 text-xl">
+                 💖  My heart feels safest when it’s with you 💖
                   </div>
                 </div>
               </div>

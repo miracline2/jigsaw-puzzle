@@ -148,7 +148,7 @@ const App = () => {
         </h2>
 
         <div className="text-center text-lg sm:text-sm text-pink-400 mb-2 shrink-0">
-          💕 <span className="font-bold text-lg">Solve For Sweet Surprises  💕  </span> 
+          💕 <span className="font-bold text-lg">Solve this For Sweet Surprises  💕  </span> 
         </div>
 
         <div className="flex-1 min-h-0 flex flex-col lg:flex-row gap-4 items-center justify-center">
