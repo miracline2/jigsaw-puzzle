@@ -1,0 +1,82 @@
+/* FULL SCREEN WRAPPER */
+.app-wrapper {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffe6ec, #fff0f5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 12px;
+  color: #d6336c;
+}
+
+/* MAIN CONTENT */
+.content-grid {
+  flex: 1;
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+}
+
+/* ❤️ RESPONSIVE GRID ❤️ */
+
+/* Mobile */
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-rows: auto auto auto;
+  }
+}
+
+/* iPad */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .content-grid > :nth-child(3) {
+    grid-column: span 2;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .content-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.hearts-bg::before,
+.hearts-bg::after {
+  content: "💗 ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  opacity: 0.15;
+  animation: floatHearts 20s linear infinite;
+  pointer-events: none;
+}
+
+.hearts-bg::after {
+  animation-delay: 10s;
+}
+
+@keyframes floatHearts {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+  
